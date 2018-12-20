@@ -7,6 +7,7 @@ import D4Component from '@/components/D4_Component'
 import D5LifeCycle from '@/components/D5_LifeCycle'
 import D7FormBinding from '@/components/D7_FormBinding'
 import D8Slot from '@/components/D8_Slot'
+import D9AcessBackend from '@/components/D9_AcessBackend'
 
 Vue.use(Router)
 
@@ -46,6 +47,11 @@ export default new Router({
       path: '/D8_Slot',
       name: 'D8_Slot',
       component: D8Slot
+    },
+    {
+      path: '/D9_AcessBackend',
+      name: 'D9_AcessBackend',
+      component: D9AcessBackend
     }
   ]
 })
